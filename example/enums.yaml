@@ -1,0 +1,13 @@
+- name: Platform
+  values: [ "Windows", "Mac", "Linux", "Android", "iOS" ]
+  helpers:
+    is: true
+    is_valid: true
+    validate: true
+    string: true
+    categories:
+      - name: Mobile
+        values: [ "Android", "iOS" ]
+      - name: Desktop
+        values: [ "Windows", "Mac", "Linux" ]
+
