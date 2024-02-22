@@ -1,6 +1,11 @@
 # Go-genenum
 This is a tool to generate enums and common optimized helpers for them.
 
+## Installation
+```bash
+go install github.com/saturn4er/go-genenum/cmd/go-genenum  
+```
+
 ## Basic usage
 Create a file with enums declaration in yaml format. For example, `enums.yaml`:
 ```yaml
